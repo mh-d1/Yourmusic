@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- MENU -->
+  <div id="menu" class="screen active">
+    <h1>My Playlist</h1>
+    <div id="songList"></div>
+  </div>
+
+  <!-- PLAYER -->
+  <div id="player" class="screen">
+    <button id="back">←</button>
+
+    <div class="card">
+      <div class="cover"></div>
+      <h2 id="title">Judul Lagu</h2>
+
+      <input type="range" id="progress" value="0">
+
+      <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
